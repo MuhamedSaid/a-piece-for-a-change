@@ -256,6 +256,13 @@
 
 @media (max-width: 33em) {
   /* General Customization */
+  .margin-on-small-screens {
+    margin-bottom: 7.4rem;
+  }
+
+  .section-how .grid {
+    row-gap: 2.4rem;
+  }
 
   .section-wt-is-piece h2,
   .section-features h2,
