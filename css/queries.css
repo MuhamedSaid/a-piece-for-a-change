@@ -10,7 +10,8 @@
   }
 
   .content-container {
-    max-width: 100rem;
+    max-width: 120rem;
+    padding: 0 1.6rem;
   }
 
   .section-who-grid .content p {
@@ -69,6 +70,10 @@
 @media (max-width: 60em) {
   html {
     font-size: 50%;
+  }
+
+  .content-container {
+    padding: 0;
   }
 
   /* MOBILE NAVIGATION */
@@ -136,6 +141,14 @@
     gap: 2.4rem;
   }
 
+  /* SECTION Products */
+  .product-cards-container {
+    width: 80%;
+  }
+  .product-details ol {
+    /* height: 50rem; */
+  }
+
   /* SECTION Experienced modified */
   .experienced-container {
     width: 70%;
@@ -200,6 +213,12 @@
     width: 90%;
   }
 
+  /* SECTION Products */
+  .product-cards-container {
+    width: 100%;
+    gap: 4.8rem;
+  }
+
   /* SECTION DOWN'S SYNDROME WIDTH (modified) */
   .section-down-pics .content-container {
     width: 100%;
@@ -232,6 +251,24 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -70%);
+  }
+
+  /* SECTION Products */
+  .product-cards-container {
+    grid-template-columns: 1fr;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-card .product-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-details ol {
+    height: auto;
   }
 
   /* SECTION DOWN PICS modified */
@@ -490,6 +527,11 @@
     width: 80%;
   }
 
+  /* SECTION Products */
+  .product-cards-container {
+    width: 70%;
+  }
+
   /* SECTION DOWN PICS modified */
   .down-pics-container {
     grid-template-columns: 1fr;
@@ -538,6 +580,11 @@
 @media (max-width: 25em) {
   .heading-primary {
     font-size: 2.4rem;
+  }
+
+  /* SECTION Products */
+  .product-cards-container {
+    width: 75%;
   }
 
   /* SECTION DOWN PICS modified */
