@@ -415,6 +415,7 @@
   margin: 0 auto;
   max-width: 100%;
   max-height: 38rem;
+  border-radius: 9px;
 }
 
 /* *********** SECTION - Down's Pics *********** */
@@ -433,13 +434,13 @@
   position: absolute;
   width: 27%;
   padding-bottom: 27%;
-  background-image: url('../img/down\ syn.\ logo.png');
+  background-image: url('../img/Down-Syndrome-Ribbon.png');
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0.15;
   top: 50%;
   left: 0;
-  transform: translate(-40%, -70%);
+  transform: translate(-30%, -70%);
   z-index: 0;
 }
 
@@ -449,13 +450,13 @@
   position: absolute;
   width: 27%;
   padding-bottom: 27%;
-  background-image: url('../img/down\ syn.\ logo.png');
+  background-image: url('../img/Down-Syndrome-Ribbon.png');
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0.15;
   top: 50%;
   right: 0;
-  transform: translate(40%, -70%);
+  transform: translate(50%, -70%);
   z-index: 0;
 }
 

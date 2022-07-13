@@ -14,10 +14,8 @@ NOTE --- 01 TYPOGRAPHY SYSTEM
 
 NOTE --- 02 COLORS
 
-- Primary: #184298
-- Tints: rgb(234, 209, 209)
-
-- Shades: #163b89
+- Primary: #2B561F
+- Tints: #406735
 
 - Secondary:
 - Accents:
