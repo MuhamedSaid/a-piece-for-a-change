@@ -54,7 +54,7 @@
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #406735;
+  background-color: #365e2a;
 }
 
 /* MOBILE ICON */
@@ -99,124 +99,13 @@
   margin-top: 8rem;
 }
 
-/* *********** SECTION HERO *********** */
+/* END OF NAVIGATION & MOBILE NAVIGATION */
 
-.section-hero {
-  height: 100vh;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
-/* Hero Section Slider */
-.slider.section-hero {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-.slide {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-}
-
-.slider-animation {
-  transition: transform 1s;
-}
-
-.slide0 {
-  z-index: -1;
-  background-image: linear-gradient(
-      rgba(34, 34, 34, 0.6),
-      rgba(34, 34, 34, 0.6)
-    ),
-    url('');
-}
-
-.slide1 {
-  z-index: -1;
-  background-image: linear-gradient(
-      rgba(34, 34, 34, 0.6),
-      rgba(34, 34, 34, 0.6)
-    ),
-    url('');
-}
-
-.slide2 {
-  z-index: -1;
-  background-image: linear-gradient(
-      rgba(34, 34, 34, 0.6),
-      rgba(34, 34, 34, 0.6)
-    ),
-    url('');
-}
-
-.slider__btn {
-  position: absolute;
-  top: 50%;
-  z-index: 1;
-  border: none;
-  background: none;
-  font-family: inherit;
-  color: #fff;
-  border-radius: 50%;
-  height: 5.5rem;
-  width: 5.5rem;
-  font-size: 3.25rem;
-  cursor: pointer;
-  padding-bottom: 0.6rem;
-  opacity: 0.4;
-}
-
-.slider__btn:hover {
-  opacity: 0.6;
-}
-
-.slider__btn--left {
-  left: 5%;
-  transform: translate(-50%, -50%);
-}
-
-.slider__btn--right {
-  right: 5%;
-  transform: translate(50%, -50%);
-}
-
-.dots {
-  position: absolute;
-  bottom: 5%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-}
-
-.dots__dot {
-  border: none;
-  background: none;
-  border: 0.3rem solid #fff;
-  opacity: 0.7;
-  height: 2rem;
-  width: 2rem;
-  border-radius: 50%;
-  margin-right: 1.75rem;
-  cursor: pointer;
-  transition: all 0.5s;
-}
-
-.dots__dot:last-child {
-  margin: 0;
-}
-
-.dots__dot--active {
-  background-color: #fff;
-  opacity: 1;
-}
-
-/* END OF THE Slider */
+/**********************************/
+/*********************************/
+/* HERO SECTION */
+/********************************/
+/********************************/
 
 .hero {
   text-align: center;
@@ -231,26 +120,11 @@
   text-align: center;
   font-size: 4.6rem;
   line-height: 1.35;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: -1px;
-  margin-bottom: 9.6rem;
+  margin-bottom: 8rem;
 }
 
-.hero-btns-container {
-  display: flex;
-  gap: 0.8rem;
-  font-weight: 500;
-}
-
-.hero-btns-container {
-  display: flex;
-}
-
-/**********************************/
-/*********************************/
-/* HERO SECTION */
-/********************************/
-/********************************/
 .hero-section {
   background-color: #eff9f1;
 }
@@ -276,6 +150,32 @@
   box-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.1);
 }
 
+.hero-btns-container {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+  margin-top: 4.8rem;
+  margin-bottom: 7.4rem;
+}
+
+.hero-btns-container .btn {
+  font-size: 1.6rem;
+  padding: 1.4rem 2.8rem;
+}
+
+.pre-orders {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 4.8rem;
+  text-align: center;
+}
+
+.pre-orders span {
+  color: #2b561f;
+  font-weight: 700;
+}
+
 /**********************************/
 /*********************************/
 /* END OF ------->> HERO SECTION */
@@ -295,7 +195,7 @@
 
 .section-wt-is-piece .grid-pattern--1 .left img {
   width: 100%;
-  max-height: 50rem;
+  /* max-height: 50rem; */
   border-radius: 0.2rem;
   box-shadow: 0 0 3.2rem rgba(0, 0, 0, 0.1);
   margin: 0 auto;
@@ -332,8 +232,8 @@
 }
 
 .section-wt-is-piece h2 {
-  font-weight: 800;
-  margin-bottom: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 4.8rem;
   color: #2b561f;
 }
 
@@ -369,12 +269,14 @@
     #f0fbf9,
     #eff9f1
   );
+
+  border-bottom: 1px solid #ddd;
 }
 
 .section-products .products-heading {
   font-size: 2.6rem;
   letter-spacing: 1.5px;
-  font-weight: 800;
+  font-weight: 700;
   color: #2b561f;
   text-align: center;
   margin-bottom: 6.4rem;
@@ -392,7 +294,7 @@
 .product-cards-container img {
   max-width: 100%;
   border-radius: 9px 9px 0 0;
-  box-shadow: 0 3.2rem 3.2rem rgba(0, 0, 0, 0.05);
+  box-shadow: 0 3.2rem 3.2rem rgba(0, 0, 0, 0.04);
   max-height: 27.2rem;
 }
 
@@ -402,26 +304,31 @@
   box-shadow: 0 3.2rem 3.2rem rgba(0, 0, 0, 0.05);
 }
 
+.product-card:last-child {
+  /* background-color: #f2faf4; */
+}
+
 .product-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2.4rem;
-  margin-top: 2.6rem;
-  padding: 2.4rem;
+  margin-top: 3.2rem;
+  padding: 0 2.4rem 2.4rem 2.4rem;
   text-align: center;
 }
 
 .product-details h4 {
   font-size: 2.4rem;
+  margin-bottom: 1.6rem;
 }
 
 .product-details ol {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.8rem;
+  gap: 2rem;
   list-style: disc;
   /* list-style-position: inside; */
   text-align: start;
@@ -432,7 +339,7 @@
 
 .product-details ol li {
   font-size: 1.6rem;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .product-details p {
@@ -464,7 +371,7 @@
 }
 
 .order-product-container .btn--outline:hover {
-  color: #406735;
+  color: #365e2a;
   border: 0.3rem solid #2b561f;
 }
 
@@ -485,7 +392,7 @@
 
 .section-how h2 {
   font-size: 3.2rem;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 8rem;
   color: #2b561f;
 }
@@ -507,7 +414,7 @@
 
 .section-how h3 {
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
@@ -525,7 +432,7 @@
   margin: 0 auto;
   max-width: 100%;
   max-height: 38rem;
-  border-radius: 9px;
+  /* border-radius: 9px; */
 }
 
 /* *********** SECTION - Down's Pics *********** */
@@ -572,7 +479,7 @@
 
 .section-down-pics .down-heading {
   font-size: 3.2rem;
-  font-weight: 800;
+  font-weight: 700;
   color: #2b561f;
   text-align: center;
   margin-bottom: 6.4rem;
@@ -638,7 +545,7 @@
 
 .section-features h2 {
   margin-bottom: 4.4rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .icon-container {
@@ -684,7 +591,7 @@
 
 .section-who h2 {
   font-size: 2.6rem;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 4.4rem;
   color: #2b561f;
   text-transform: uppercase;
@@ -747,7 +654,7 @@
 }
 
 .section-who-grid .content p span {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 3.2rem;
 }
 
@@ -833,13 +740,52 @@
   color: #2b561f;
 }
 
+/* *********** SECTION -- distribution *********** */
+.section-distribution {
+  background-image: linear-gradient(
+    to top,
+    #eff9f1,
+    #f0fbf9,
+    #f5fcfe,
+    #fbfdff,
+    #ffffff
+  );
+}
+
+.section-distribution h2 {
+  margin-bottom: 4.8rem;
+}
+.distribution-container {
+  display: grid;
+  grid-template-columns: repeat(4, 23rem);
+  column-gap: 2.4rem;
+  row-gap: 2.4rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.distribution-logo {
+  height: 15rem;
+  padding: 0.8rem 0;
+  border: 4px solid #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.distribution-logo img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
 /* *********** SECTION -- Featured in *********** */
 .section-featured-in h2 {
   margin-bottom: 4.8rem;
 }
 .featured-in-container {
   display: grid;
-  grid-template-columns: repeat(2, 23rem);
+  grid-template-columns: repeat(3, 23rem);
   column-gap: 2.4rem;
   row-gap: 2.4rem;
   align-items: center;
@@ -853,10 +799,12 @@
   border: 4px solid #f2f2f2;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .featured-in-logo img {
-  height: 100%;
+  max-height: 85%;
+  max-width: 85%;
 }
 
 /* *********** SECTION -- CTA *********** */
@@ -881,7 +829,7 @@
 .section-contact .right h2 {
   color: #333;
   font-size: 3.2rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .cta-form {
@@ -983,8 +931,14 @@
   background-color: #181818;
 }
 
+.footer .grid {
+  align-items: center;
+  justify-content: center;
+  padding: 2.4rem 0;
+}
+
 .footer-container {
-  padding: 2.4rem;
+  padding: 2.4rem 0;
 }
 
 .footer-container .copyright p {
