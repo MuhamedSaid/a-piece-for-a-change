@@ -449,8 +449,8 @@
   content: '';
   display: block;
   position: absolute;
-  width: 27%;
-  padding-bottom: 27%;
+  width: 24%;
+  padding-bottom: 24%;
   background-image: url('../img/Down-Syndrome-Ribbon.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -467,7 +467,7 @@
   position: absolute;
   width: 27%;
   padding-bottom: 27%;
-  background-image: url('../img/Down-Syndrome-Ribbon.png');
+  background-image: url('../img/ribbon.png');
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0.15;
