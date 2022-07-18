@@ -304,9 +304,9 @@
   box-shadow: 0 3.2rem 3.2rem rgba(0, 0, 0, 0.05);
 }
 
-.product-card:last-child {
-  /* background-color: #f2faf4; */
-}
+/* .product-card:last-child {
+  background-color: #f2faf4;
+} */
 
 .product-details {
   display: flex;
@@ -465,8 +465,8 @@
   content: '';
   display: block;
   position: absolute;
-  width: 27%;
-  padding-bottom: 27%;
+  width: 25%;
+  padding-bottom: 25%;
   background-image: url('../img/ribbon.png');
   background-size: contain;
   background-repeat: no-repeat;
